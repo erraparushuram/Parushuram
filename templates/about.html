@@ -1,0 +1,141 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/demo/demo.css' %}">
+
+{% endblock head %}
+
+
+{% block body %}
+<br>
+
+<div class="container">
+  <div class="card card-body">
+      <div class="container-main">
+          <!-- Left part -->
+          <div class="left-part">
+              <div class="image-container">
+                  <img class="card-img-top" src="{% static 'img/image4.jpg' %}">
+              </div>
+              <h1>Refer Friends, <span style="color: red; font-size: larger;">Win Exciting Rewards!!!</span></h1>
+              <h6>Your friends get 10% off with your Referral.</h6>
+              <div class="card bg-light" style="width: 18rem;">
+                  <div class="card-body">
+                      <p class="card-text">Your Referral code</p>
+                      <i class="bi bi-copy"> MKDIRU76T</i>
+                  </div>
+              </div>
+          </div>
+          <!-- Right Part -->
+          <div class="right-part">
+              <button class="btn btn-success">100% working</button>
+              <div><br>
+                  <ul style="list-style-type: square;">
+                      <li>Get Up to <span style="color: red; font-size: larger;">₹5,000</span> Extra Referral Discount.</li>
+                      <li>Also Get <del>20%</del><span style="color: red; font-size: larger;">30% </span>Early Bird Discount.</li>
+                      <li>Save around <span style="color: red; font-size: larger;">Rs 8,000 </span>on any course.</li>
+                      <li>Latest Updated on: <span style="color: red; font-size: larger;">08 March 2024</span>.</li>
+                      <li><span style="color: red; font-size: larger;">GUARANTEED Maximum </span>Discount available anywhere on Internet.</li>
+                  </ul>
+                  <button class="btn btn-danger" style="background-color: red;" onmouseover="this.style.backgroundColor='green'" ontouchstart="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='red'">I WANT THIS</button>
+              </div>
+          </div>
+      </div>
+      <br>
+      <p style="text-align: center;">Since 2021, We've benefited over<span style="color: red; font-size: larger;">498</span><br>
+          <span style="color: red; font-size: larger;">Student</span>to save more than Rs 24,45,201.</p>
+  </div>
+</div>
+
+
+  <!-- Discount section -->
+
+  <div style="display: flex;" class="card-container">
+    <div style="flex: 1;" class="custom-card">
+        <img src="{% static 'img/img1.png' %}" class="card-img-top rounded-circle" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Early Bird Discount</h5>
+            <p class="card-text">Discount of 10% to 30% is already given. This varies from time from the starting date of the course. You can wait for the perfect time to get the maximum discount.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button class="btn btn-danger">CHECK ONGOING DISCOUNT</button>
+        </div>
+    </div>
+
+    <div style="flex: 1;" class="custom-card">
+        <img src="{% static 'img/img2.png' %}" class="card-img-top rounded-circle" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Using Referral Code</h5>
+            <p class="card-text">You can get an additional 10% discount on your 1st course. After that, you can also refer your friends and get discounts on your next course purchase.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button class="btn btn-danger">GET MY 10% REFERRAL</button>
+        </div>
+    </div>
+
+    <div style="flex: 1;" class="custom-card">
+        <img src="{% static 'img/img3.png' %}" class="card-img-top rounded-circle" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Scholarship Test</h5>
+            <p class="card-text">Goo Business organizes scholarship tests, in which you can give an aptitude test and get a discount on Goo Business courses.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button class="btn btn-danger">APPLY FOR SCHOLARSHIP TEST</button>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Section 3 -->
+<h1 style="color: rgb(64, 64, 220); text-align: center; padding-top: 50px;">Goo business Courses With Discounts Included</h1>
+<h4 class="course-title">Data & Development</h4>
+<p class="course">Data courses dwell in the state of the art algorithms and require good knowledge of programming fundamentals. 
+  Web development courses use modern JavaScript to build powerful and fast applications from the ground up.
+  No prior development experience needed.</p>
+  
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="flex: 1; margin-right: 10px;">
+    <div class="card">
+      <img src="{% static 'img/react.png' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">React</h5>
+        <p class="card-text">It is meant to help developers build user interfaces 
+          that are fast and responsive, or “reactive.” </p>
+      </div>
+    </div>
+  </div>
+  <div style="flex: 1; margin-right: 10px;">
+    <div class="card">
+      <img src="{% static 'img/machine.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Machine Learning</h5>
+        <p class="card-text">Machine learning is a branch of artificial intelligence (AI) 
+          and computer science.</p>
+      </div>
+    </div>
+  </div>
+  <div style="flex: 1; margin-right: 10px;">
+    <div class="card">
+      <img src="{% static 'img/mern.png' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mern Stack</h5>
+        <p class="card-text">MERN Stack is a combination of the latest technologies used for creating premium web applications. </p>
+      </div>
+    </div>
+  </div>
+  <div style="flex: 1;">
+    <div class="card">
+      <img src="{% static 'img/android1.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Android(kotlin)</h5>
+        <p class="card-text">Kotlin is an expressive and concise
+          programming language that reduces common code errors.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <img src="{% static 'img/Email3.png'%}" alt=""> -->
+
+{% endblock body %}
+{% static 'img/Email3.png'%}
